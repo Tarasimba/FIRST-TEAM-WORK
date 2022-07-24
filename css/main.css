@@ -1,26 +1,17 @@
 .about {
     width: 320px;
-height: 1564px;
-left: 0px;
-top: 2589px;
-background: #FFF5F6;
+background: $about-bg-color;
 }
 
-/* .about_div{ 
-    display: flex;
-text-align: center;
-flex-direction: column;
-align-items: center;
-}
-*/
+
 .label{
-font-family: 'Titan One';
+font-family: $font-secondary;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 text-transform: uppercase;
-color: #FFA5BA;
+color: $secondary-color;
 padding-top: 60px;
 display: flex;
 text-align: center;
@@ -29,7 +20,7 @@ align-items: center;
 }
 
 .title{
-font-family: 'Titan One';
+font-family: $font-secondary;
 font-style: normal;
 font-weight: 400;
 font-size: 34px;
@@ -37,54 +28,58 @@ line-height: 39px;
 text-align: center;
 letter-spacing: 0.04em;
 text-transform: uppercase;
-color: #D41443;
+color: $primary-accent-color;
 width: 200px;
 margin: 15px 64px 32px 56px;
 }
 
 .desc1 {
-font-family: 'DM Sans';
+font-family: $font-primary;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 162%;
 /* or 19px */
 width: 220px;
-
-color: #000000;
+margin-bottom: 40px;
+color: $primary-text-color;
 }
 
 #more {display: none;}
 
+.img_milk{
+    position:absolute;
+    z-index: 3;
+    top: -50px;
+    left: 0;
+}
 
 .desc2 {
-font-family: 'DM Sans';
+font-family: $font-primary;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 162%;
-color: #907E82;
+color: $text-color;
 width: 220px;
+position: relative;
 }
 
 .descbtn {
-background: #FFFFFF;
+background: $about-bg-color;
 border: none;
 border-radius: 22px;
 cursor: pointer;
 width: 176px;
-height: 44px;
-left: 20px;
-top: 3432px;
-font-family: 'DM Sans';
+font-family: $font-primary;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 18px;
 display: flex;
-align-items: center;
+align-items: baseline;
 text-align: center;
-color: #D41443;
+color: $primary-accent-color;
 justify-content: center;
 }
 
@@ -97,4 +92,11 @@ justify-content: center;
     align-items: baseline;
     text-align: center;
     justify-content: center;
-}   
+    margin-right: 20px;
+    align-items: baseline;
+}
+
+.foot_desc{
+    text-align: left;
+    left: 20px; 
+}
