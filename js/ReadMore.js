@@ -9,7 +9,7 @@ function myFunction() {
       moreText.style.display = "none";
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "Read Less";
+      btnText.innerHTML = "Read Less ";
       moreText.style.display = "inline";
     }
   }
